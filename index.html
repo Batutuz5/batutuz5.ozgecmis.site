@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Batuhan Demirkol — Bilgisayar Programcısı portfolyosu" />
+  <title>Batuhan Demirkol | Portfolyo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">İçeriğe atla</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="logo">BD<span class="logo-dot">.</span></a>
+      <nav class="nav" aria-label="Ana menü">
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+          <span class="nav-toggle-bar"></span>
+          <span class="sr-only" data-i18n="menu">Menü</span>
+        </button>
+        <ul id="nav-menu" class="nav-list">
+          <li><a href="#home" data-i18n="nav.home">Ana Sayfa</a></li>
+          <li><a href="#about" data-i18n="nav.about">Hakkımda</a></li>
+          <li><a href="#skills" data-i18n="nav.skills">Beceriler</a></li>
+          <li><a href="#cv" data-i18n="nav.cv">CV</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">İletişim</a></li>
+        </ul>
+      </nav>
+      <button type="button" class="lang-toggle" id="lang-toggle" aria-label="Dili değiştir">EN</button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="home" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow" data-i18n="hero.eyebrow">Bilgisayar Programcısı</p>
+          <h1 class="hero-title">
+            <span data-i18n="hero.greeting">Merhaba, ben</span><br />
+            <span class="gradient-text">Batuhan Demirkol</span>
+          </h1>
+          <p class="hero-lead" data-i18n="hero.lead">
+            İzmir Ekonomi Üniversitesi'nde Bilgisayar Programcılığı öğrencisiyim. Web geliştirme, SQL ve sunucu sistemleri üzerinde çalışıyorum; donanım ve homelab kurulumu ilgi alanım.
+          </p>
+          <div class="hero-actions">
+            <a href="#about" class="btn btn-primary" data-i18n="hero.cta.about">Hakkımda</a>
+            <a href="#cv" class="btn btn-outline" data-i18n="hero.cta.cv">CV İndir</a>
+            <a href="https://github.com/Batutuz5" class="btn btn-ghost" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="avatar-ring">
+            <div class="avatar-placeholder">
+              <span>BD</span>
+            </div>
+          </div>
+          <div class="hero-stats">
+            <div class="stat">
+              <span class="stat-value">3,18</span>
+              <span class="stat-label" data-i18n="hero.stat.term1">1. dönem</span>
+            </div>
+            <div class="stat">
+              <span class="stat-value">3,08</span>
+              <span class="stat-label" data-i18n="hero.stat.term2">2. dönem</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title" data-i18n="about.title">Hakkımda</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p data-i18n="about.p1">
+              Web tasarımı, nesne tabanlı programlama, SQL, sunucu işletim sistemleri ve ağ temelleri üzerine eğitim alıyorum. İZSU CBS biriminde staj yaparak SQL, Excel, QGIS ve C# ile saha deneyimi kazandım.
+            </p>
+            <p data-i18n="about.p2">
+              Boş zamanlarımda yürüyüş ve bisiklet yapıyorum; ev sunucusu (homelab) kurarak altyapı ve donanım becerilerimi geliştiriyorum.
+            </p>
+          </div>
+          <div class="about-cards">
+            <article class="info-card">
+              <h3 data-i18n="about.edu.title">Eğitim</h3>
+              <p class="info-card-main">İzmir Ekonomi Üniversitesi</p>
+              <p class="info-card-sub" data-i18n="about.edu.detail">Bilgisayar Programcılığı · 2024 – Günümüz</p>
+              <p class="info-card-meta" data-i18n="about.edu.honour">1. dönem 3,18 · 2. dönem 3,08 — Şeref Öğrencisi</p>
+              <p class="info-card-meta" data-i18n="about.edu.courses">Web Tasarımı ve Programlama, …</p>
+            </article>
+            <article class="info-card">
+              <h3 data-i18n="about.intern.title">Staj</h3>
+              <p class="info-card-main">İZSU CBS</p>
+              <p class="info-card-sub" data-i18n="about.intern.role">Stajyer · 02.06.2025 – 31.07.2025</p>
+              <p class="info-card-meta" data-i18n="about.intern.detail">SQL, Excel, QGIS, C# · takım çalışması</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title" data-i18n="skills.title">Beceriler</h2>
+        <div class="skills-layout">
+          <div class="skills-group">
+            <h3 data-i18n="skills.technical">Teknik</h3>
+            <ul class="tag-list" id="skills-technical"></ul>
+          </div>
+          <div class="skills-group">
+            <h3 data-i18n="skills.courses">Aldığım dersler</h3>
+            <ul class="tag-list" id="skills-courses"></ul>
+          </div>
+          <div class="skills-group">
+            <h3 data-i18n="skills.hobbies">Hobiler</h3>
+            <ul class="tag-list" id="skills-hobbies"></ul>
+          </div>
+          <div class="skills-group">
+            <h3 data-i18n="skills.certs">Sertifikalar</h3>
+            <ul class="cert-list" id="skills-certs"></ul>
+          </div>
+          <div class="skills-group">
+            <h3 data-i18n="skills.lang">Yabancı Dil</h3>
+            <p class="lang-level" data-i18n="skills.english">İngilizce — Orta</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cv" class="section">
+      <div class="container cv-section">
+        <h2 class="section-title" data-i18n="cv.title">CV İndir</h2>
+        <p class="section-intro" data-i18n="cv.intro">
+          Türkçe ve İngilizce özgeçmişlerimi PDF olarak indirebilirsiniz. Her iki dosyada web sitesi ve GitHub bağlantıları yer alır.
+        </p>
+        <div class="cv-cards">
+          <a href="turkce_cv.docx" class="cv-card" target="_blank" rel="noopener">
+            <span class="cv-flag" aria-hidden="true">TR</span>
+            <span class="cv-name" data-i18n="cv.tr">Özgeçmiş (Türkçe)</span>
+            <span class="cv-action" data-i18n="cv.download">İndir (.docx)</span>
+          </a>
+          <a href="ing_cv.docx" class="cv-card" target="_blank" rel="noopener">
+            <span class="cv-flag" aria-hidden="true">EN</span>
+            <span class="cv-name" data-i18n="cv.en">Resume (English)</span>
+            <span class="cv-action" data-i18n="cv.downloadEn">İndir (.docx)</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title" data-i18n="contact.title">İletişim</h2>
+        <p class="section-intro" data-i18n="contact.intro">İş birliği, staj veya proje teklifleri için benimle iletişime geçebilirsiniz.</p>
+        <ul class="contact-list">
+          <li>
+            <a href="mailto:demirkolbatuhan@gmail.com">
+              <span class="contact-label">E-posta</span>
+              <span>demirkolbatuhan@gmail.com</span>
+            </a>
+          </li>
+          <li>
+            <a href="tel:+905530257665">
+              <span class="contact-label" data-i18n="contact.phone">Telefon</span>
+              <span>+90 553 025 7665</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/Batutuz5" target="_blank" rel="noopener noreferrer">
+              <span class="contact-label">GitHub</span>
+              <span>github.com/Batutuz5</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/batuhan-demirkol-3ba0b6375/" target="_blank" rel="noopener noreferrer">
+              <span class="contact-label">LinkedIn</span>
+              <span>batuhan-demirkol</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Batuhan Demirkol</p>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

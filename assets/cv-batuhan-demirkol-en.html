@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Resume — Batuhan Demirkol</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { font-family: "Segoe UI", Arial, sans-serif; font-size: 11pt; line-height: 1.45; color: #1a1a1a; max-width: 210mm; margin: 0 auto; padding: 14mm; }
+    h1 { margin: 0 0 4px; font-size: 22pt; }
+    .subtitle { margin: 0 0 12px; color: #444; font-size: 12pt; }
+    .contact { margin-bottom: 16px; font-size: 10pt; }
+    .contact a { color: #2563eb; text-decoration: none; }
+    h2 { margin: 14px 0 6px; font-size: 11pt; text-transform: uppercase; letter-spacing: 0.05em; border-bottom: 1px solid #ccc; padding-bottom: 2px; }
+    p, li { margin: 0 0 4px; }
+    ul { margin: 0; padding-left: 18px; }
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 24px; }
+    @media print { body { padding: 10mm; } }
+  </style>
+</head>
+<body>
+  <h1>BATUHAN DEMİRKOL</h1>
+  <p class="subtitle">Computer Programmer</p>
+  <div class="contact">
+    +90 553 025 7665 · demirkolbatuhan@gmail.com<br />
+    <a href="https://github.com/Batutuz5">github.com/Batutuz5</a> ·
+    <a href="https://www.linkedin.com/in/batuhan-demirkol-3ba0b6375/">LinkedIn</a><br />
+    <strong>Portfolio:</strong> <span id="site-url">—</span>
+  </div>
+
+  <h2>Profile</h2>
+  <p>Computer Programmer. Also good at hardware.</p>
+
+  <h2>Education</h2>
+  <p><strong>İzmir University of Economics</strong> — Computer Programming (2024 – Present)<br />
+  First term 3.18, second term 3.08 GPA — Honour Student.</p>
+  <p>Web Design and Programming · Object Oriented Programming · SQL · Server Operating Systems · Basics of Network</p>
+
+  <h2>Job Experience</h2>
+  <p><strong>İZSU CBS — Intern</strong> (02.06.2025 – 31.07.2025)<br />
+  Gained experience with SQL, Excel, QGIS, and C#. Experienced teamwork and the work environment.</p>
+
+  <div class="two-col">
+    <div>
+      <h2>Secondary Language</h2>
+      <p>English — Intermediate</p>
+      <h2>Hobbies</h2>
+      <p>Walking, cycling, configuring homelab server</p>
+    </div>
+    <div>
+      <h2>Certificates</h2>
+      <ul>
+        <li>Yapay Zekanın İş Dünyasına Etkisi Eğitimi Sertifikası</li>
+        <li>RYLA Kültür Sanat Katılım Belgesi</li>
+      </ul>
+    </div>
+  </div>
+  <script>
+    const base = window.location.origin + window.location.pathname.replace(/assets\/[^/]+$/, "");
+    const el = document.getElementById("site-url");
+    if (el && window.location.protocol.startsWith("http")) el.textContent = base;
+  </script>
+</body>
+</html>

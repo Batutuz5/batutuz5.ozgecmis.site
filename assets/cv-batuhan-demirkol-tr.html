@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Özgeçmiş — Batuhan Demirkol</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { font-family: "Segoe UI", Arial, sans-serif; font-size: 11pt; line-height: 1.45; color: #1a1a1a; max-width: 210mm; margin: 0 auto; padding: 14mm; }
+    h1 { margin: 0 0 4px; font-size: 22pt; }
+    .subtitle { margin: 0 0 12px; color: #444; font-size: 12pt; }
+    .contact { margin-bottom: 16px; font-size: 10pt; }
+    .contact a { color: #2563eb; text-decoration: none; }
+    h2 { margin: 14px 0 6px; font-size: 11pt; text-transform: uppercase; letter-spacing: 0.05em; border-bottom: 1px solid #ccc; padding-bottom: 2px; }
+    p, li { margin: 0 0 4px; }
+    ul { margin: 0; padding-left: 18px; }
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 24px; }
+    @media print { body { padding: 10mm; } }
+  </style>
+</head>
+<body>
+  <h1>BATUHAN DEMİRKOL</h1>
+  <p class="subtitle">Bilgisayar Programcısı</p>
+  <div class="contact">
+    +90 553 025 7665 · demirkolbatuhan@gmail.com<br />
+    <a href="https://github.com/Batutuz5">github.com/Batutuz5</a> ·
+    <a href="https://www.linkedin.com/in/batuhan-demirkol-3ba0b6375/">LinkedIn</a><br />
+    <strong>Portfolyo:</strong> <span id="site-url">—</span>
+  </div>
+
+  <h2>Profil</h2>
+  <p>Bilgisayar Programcısı. Donanıma ilgili.</p>
+
+  <h2>Eğitim</h2>
+  <p><strong>İzmir Ekonomi Üniversitesi</strong> — Bilgisayar Programcılığı (2024 – Günümüz)<br />
+  İlk dönem 3,18, 2. dönem 3,08 ortalama ile şeref öğrencisi.</p>
+  <p>Web Tasarımı ve Programlama · Nesne Tabanlı Programlama · SQL · Sunucu İşletim Sistemleri · Ağ Temelleri</p>
+
+  <h2>İş Tecrübesi</h2>
+  <p><strong>İZSU CBS — Stajyer</strong> (02.06.2025 – 31.07.2025)<br />
+  Başta SQL, Excel, QGIS, C# üzerinde geliştirme fırsatı edindim. Takım çalışması ve iş ortamının nasıl olduğunu deneyimledim.</p>
+
+  <div class="two-col">
+    <div>
+      <h2>Yabancı Dil</h2>
+      <p>İngilizce — Orta</p>
+      <h2>Hobiler</h2>
+      <p>Yürüyüş yapmak, bisiklet sürmek, ev sunucumu ayarlamak</p>
+    </div>
+    <div>
+      <h2>Sertifikalar</h2>
+      <ul>
+        <li>Yapay Zekanın İş Dünyasına Etkisi Eğitimi Sertifikası</li>
+        <li>RYLA Kültür Sanat Katılım Belgesi</li>
+      </ul>
+    </div>
+  </div>
+  <script>
+    const base = window.location.origin + window.location.pathname.replace(/assets\/[^/]+$/, "");
+    const el = document.getElementById("site-url");
+    if (el && window.location.protocol.startsWith("http")) el.textContent = base;
+  </script>
+</body>
+</html>
