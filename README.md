@@ -7,7 +7,7 @@ MBP 206 Sistem Analizi ve Tasarımı final projesi için hazırlanmış kişisel
 - Bölümler: Ana Sayfa, Hakkımda, Beceriler, CV, İletişim (GitHub ana sayfadaki butondan)
 - Türkçe / İngilizce dil geçişi (sağ üst **EN** / **TR**)
 - Mobil uyumlu (responsive) tasarım
-- CV: `turkce_cv.docx` ve `ing_cv.docx` (site kök dizininde)
+- CV: `turkce_cv.pdf` ve `ing_cv.pdf` (site kök dizininde)
 
 ## Yerel çalıştırma
 
@@ -32,4 +32,4 @@ Tarayıcıda: http://localhost:8080
 
 ## CV dosyaları
 
-`turkce_cv.docx` ve `ing_cv.docx` dosyalarını `index.html` ile aynı klasöre koyun. Blackboard için bu dosyaları PDF’e çevirip ZIP olarak yükleyebilirsiniz.
+`turkce_cv.pdf` ve `ing_cv.pdf` dosyalarını `index.html` ile aynı klasöre koyun. Blackboard için iki PDF’i ZIP olarak yükleyebilirsiniz.
